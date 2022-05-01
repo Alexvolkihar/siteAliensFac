@@ -1,0 +1,79 @@
+/*Page de style css du site web de l'étudiant Alexis MABANZA n°21908818*/
+body { /*image de fond*/
+	background: url("../img4website/plaship.jpg") fixed no-repeat;
+}
+
+.grid { /*début du style du bandeau*/
+	display: grid;
+	grid-template-columns: repeat(5,20%);
+
+}
+
+.bandeau {
+	margin: 1px;
+	padding: 10px;
+	background-color: #9184FE;
+	border: 4px purple outset;
+	border-radius: 90px;
+	opacity: 10%;
+	box-shadow: 15px -2px 3px;
+	
+
+}
+.bandeau:hover{
+	background-color: dodgerblue;
+}
+
+.titre_bandeau { /*fin du style du bandeau*/
+	font-size: 100%;
+	color: white;
+}
+
+.introduction {
+	/*Style de l'encart introductif*/
+	display: grid;
+	grid-template-columns:1fr;
+	grid-template-rows:1fr;
+	justify-self: right;
+	margin: 4%;
+	padding: 4%;
+}
+.introduction p { /*texte de l'intro*/
+	justify-self: center;
+	color: chocolate;
+	text-shadow: black 0.1em 0.3em 0.3em;
+	font-size: 130%;
+}
+
+.introduction .intro_title {/*titre de l'intro*/
+	color: purple;
+	grid-template-rows:1fr;
+	grid-template-columns:1fr;
+	margin: 1%;
+	padding: 1%;
+	justify-self: start;
+	text-shadow: black 0.1em 0.3em 0.3em;
+	font-size: 200%;
+}
+
+.introduction .aliens {/*image de l'intro*/
+	justify-self: center;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: repeat(3,33%);
+	margin: 10px;
+	padding: 10px;
+	justify-content: center;
+}
+
+.footer_grid {
+	background-color: grey;
+}
+/*surbrillance
+ patat.trucmuche:hover{
+background-color lzlzlz
+opacity leuleuleu
+etc
+}*/
